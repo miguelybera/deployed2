@@ -15,6 +15,5 @@ const submittedFiles = new CloudinaryStorage({
         })
     }
 })
-//trs
 
 module.exports = submittedFiles

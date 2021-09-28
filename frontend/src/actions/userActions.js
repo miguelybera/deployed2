@@ -106,8 +106,6 @@ export const logout = () => async (dispatch) => {
         dispatch({
             type: LOGOUT_SUCCESS
         })
-        localStorage.clear();
-        window.location.reload();
     } catch (error) {
         dispatch({
             type: LOGOUT_FAIL,

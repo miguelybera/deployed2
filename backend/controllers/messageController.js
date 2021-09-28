@@ -37,7 +37,7 @@ exports.createMessage = catchAsyncErrors(async (req, res, next) => {
     }
 
 })
-//test
+
 // get messages inside a conversation
 exports.getMessages = catchAsyncErrors(async (req, res, next) => {
     const conversation = await Conversation.findById(req.params.conversationId)
